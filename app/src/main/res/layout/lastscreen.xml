@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_bg">
+    <ImageView
+        android:id="@+id/resultimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/youwin"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:id ="@+id/restartId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+       android:layout_marginRight="70dp"
+        android:text="Replay"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:textStyle="italic|bold"
+        android:layout_gravity="bottom|center" />
+    <Button
+    android:id ="@+id/exitId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape"
+    android:layout_marginLeft="70dp"
+    android:text="Exit"
+    android:textSize="20dp"
+    android:fontFamily="casual"
+    android:textStyle="italic|bold"
+    android:layout_gravity="bottom|center" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/resultsmiley"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/winimg"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="sadasas"
+        android:gravity="center_vertical"
+        android:textSize="35dp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic|bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/finalscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:text="asdsad"
+        android:gravity="center"
+        android:textSize="35dp"
+
+        android:textColor="@android:color/black"
+        android:textStyle="italic|bold"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>
